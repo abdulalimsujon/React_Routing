@@ -33,7 +33,7 @@ const Blogs = () => {
                             <p>{truncateString(body, 100)}</p>
 
 
-                            <Link to={title}>Learn more</Link>
+                            <Link to={title} state={{ id, title, body }}>Learn more</Link>
 
 
 
