@@ -32,7 +32,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+nav .active {
+  color: Red;
+}
+
+section {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+article {
+  background-color: aliceblue;
 }
